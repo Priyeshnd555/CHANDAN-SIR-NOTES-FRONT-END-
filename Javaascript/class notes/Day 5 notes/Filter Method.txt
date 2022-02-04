@@ -1,0 +1,12 @@
+
+
+Filter method  :   	ARRAY_NAME . FILTER ( (VAL, INDEX (opt) => // single line ) ; no return required
+
+		-> creates a new array 
+		-> checks for condition
+		-> only true values are stored into the NEW ARRAY 
+
+		-> returns the array of True values 
+
+
+		returns :  a array which satisfy the boolean condition and only true value are store din to the array  

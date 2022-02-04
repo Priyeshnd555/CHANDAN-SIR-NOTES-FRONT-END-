@@ -1,0 +1,81 @@
+body{
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* height: 100%; */
+     background-color: #fa8;
+      /* display: flex;
+     justify-content: center;
+     align-items: center;  */
+     /* margin: auto; */
+}
+.container{
+    border: 0;
+}
+
+form{
+  
+    /* margin: 50%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
+    top: 50%;
+    margin: 40px auto;/* to center a div set the 
+    margin as width/2 of div width */
+    width: 440px;
+    height: 440px;
+    background-color: #333;
+    border-radius: 60px;
+    
+}
+.userimg{
+  position: absolute;
+  top: -20px;
+  left: 196px;
+}
+
+/* fieldset{
+    border: 0;
+   border-radius: 50px;
+} */
+table{
+    margin: auto;
+}
+legend{
+    margin-top: -100px;
+    color: white;
+    margin-left: 160px;
+}
+input[type="text"],[type='password'],[type="email"]{
+    border: 0;
+    background-color: #333;
+    border-bottom: 3px solid rgb(250, 26, 26);
+    outline: none;
+    color: white;
+}
+input[list="role"]{
+    /* border-bottom: 3px solid green; */
+    /* outline: none; */
+    border: 1px solid rgb(87, 206, 87);
+    background-color: #333;
+}
+::placeholder{
+    color:#fff;
+}
+input[list="role"]:hover::placeholder{
+    /* border-bottom: 3px solid green; */
+    /* outline: none; */
+    border: 1px solid rgb(87, 206, 87);
+    background-color: #fff;
+    color:red;
+    /* font-size: large; */
+    font-weight: bolder;
+
+}
+
+
+button{
+    border: 0;
+    padding: 8px;
+    background-color: #1f1;
+    color: black;
+}

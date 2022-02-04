@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <p> hello </p>     this is a p tag inside head tag -->
+    <script> // this is a script tag inside head
+        console.log("hello wrold");
+        
+        console.log('\n');
+        var name='kruthika';
+        console.log('name : '+name);
+        var age = 28;
+        console.log("age : "+age);
+        var isMarried = false;
+        console.log("is Married  : " + isMarried);
+        var x;
+        console.log("x : "+x);
+        var y = null;
+        console.log('y : '+y)
+    </script>
+</head>
+<body>
+
+    <script> // this is a script tag inside head
+        console.log('this is in body \n \n');
+        console.log("hello wrold");
+
+        console.log();
+
+        var name='kruthika';
+        console.log('name : '+name);
+        var age = 28;
+        console.log("age : "+age);
+        var isMarried = false;
+        console.log("is Married  : " + isMarried);
+        var x;
+        console.log("x : "+x);
+        var y = null;
+        console.log('y : '+y)
+
+        var person ={
+
+                firstName : 'priyesh',
+                lastName :' n d',
+                age : 23,
+                
+                fullName:function(){
+                
+                return this.firstName + this.lastName;
+                }
+            
+        }
+        console.log('\n');
+        console.log('first Name : '+ person.firstName);
+        console.log('Last name : '+ person.lastName);
+        console.log('Age: '+ person.age);
+
+        var fullName = person.fullName();
+        console.log('\n');
+        console.log('Full Name : ' + person["firstName"]);
+        console.log('Last name : '+ person["lastName"]);
+        console.log('Age: '+ person["age"]);
+
+        var fullName = person["fullName"]();
+        console.log('Full Name : ' + fullName);
+        
+        
+        
+        
+
+        
+       
+        
+    </script>
+    
+</body>
+</html>

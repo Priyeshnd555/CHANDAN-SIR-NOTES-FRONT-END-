@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(129, 212, 129);
+}
+.header{
+    background-color: #f00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+.headername{
+    font-size: xx-large;
+    color:rgb(246, 243, 243);
+    /* text-align: center; */
+}
+.headerimg{
+    margin: 20px;
+    width:150px;
+    height:150px;
+
+}
+.breakline{
+    background-color:black;
+  
+}
+.navbar{
+    width:100%;
+   
+    background-color: #000;
+   display: inline-block;
+   position: -webkit-sticky;
+   position: sticky;/* needs a pos top btm 
+   otherwise behaves as relative 
+   it wont stick it needds location to stick */
+   top: 2px;/* positon form top */
+
+}
+
+.navlinks{
+    color:rgb(2, 1, 1);
+    padding: 12px;
+    background-color: rgb(92, 255, 51);
+    text-decoration: none;
+    float:left;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+.navlinkright{
+    float:right;
+    
+}
+.home{
+    margin: 20px;
+    display: inline-block;
+    /* inline-block
+     creates 2 or  blocks
+    on same line */
+    /* block creates blocks
+    in 2 separate lines */
+
+}
+.homecontent{
+    float: right;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:20px
+    
+}
+.categories{
+background-color: #fe6;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 40px;
+   /* justify-content: space-between; */
+   /* justify-content: space-around; */
+   justify-content: space-evenly;
+   align-items:baseline;/* this makes the items to stay in a line */
+
+}
+.supporttitle{
+    text-align: center;
+    color:white;
+}
+.support{
+
+    background-color: rgb(117, 85, 109);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.supportcontainer{
+    background-color: rgb(19, 20, 20);
+    width: 80%;
+    border-radius: 12px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(250, 11, 11);
+}
+
+.aboutus{
+    background-color: #000;
+   text-align: center;
+    margin: auto;
+    color: rgb(255, 251, 251);
+}
+
+
+
+
+
+
+
+
+
+
+
+

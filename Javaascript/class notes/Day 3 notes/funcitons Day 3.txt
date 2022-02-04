@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------------------------------------------------
+For Each 
+
+	syntax ; ( it takes functions as input )
+
+		
+		n = [ 23,35,5465,24,]
+
+		n.forEach(fucntion (value, index)  		// it runs number  of times the length of array
+		{
+			log(value);
+			log(index);
+		}
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Anonymous Function    ||| Learn ==>    constructor func && Generator Func ||| currying || nested Functions 
+
+	V.V.V.Im ==> call back functions
+----------------------------------------------------------------------------------------------------------------------------------
+Named Functions ---------
+
+
+	Syntax : 
+
+
+	fucntion function_name ( arg1, arg2, arg3......) {
+
+	var sum = n1 + n2; 
+
+	} 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+IIFE -- Immediately Invoked Function Expression 
+
+
+	note :: it is mandatory to add  [     ;     ] before writing  self invoking Function 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+ Arrow function : 
+
+var arrowFunc = ( a,b) => { console.log( "this is an arrow function ") ;
+
+
+in one line of code return statement is not mandatory ;
+
+example : 
+		var arrowFunc = arg => arg;
+		console.log(arrowFunc('hello));
+		
+		var greet = arg => {
+			return arg;
+		}
+		
+		console.log(greet( 'this is a greeting '));
+		
+		
+
+note : but if theres is more than one statements then return statement is mandatory
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------

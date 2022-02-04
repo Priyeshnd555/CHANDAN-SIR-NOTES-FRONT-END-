@@ -1,0 +1,187 @@
+
+***) Sort a Number  V.V.IM   sort((a,b)=>a-b) 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1) how to eliminate duplicate elements from Array..? set constructior i think search anwer
+
+2) why & how  to use throw keyword....?
+
+3)  find the second largest answer without Sorting and swapping also  ? 
+	
+	 take 2 varialbles 1.largest 2. second largest , and take a for loop and if check if any no is greater than 
+	largest change largest to that no .. and change the value of second largest to largest since value of largest is changed 
+	
+
+4) how to give alias name while destructuring objects.?	
+
+6)what is rest api..? making http calls is called rest api i think so 
+
+7) what  is the diff between framework and library .?
+
+
+
+	javascript is a -> language
+
+
+	library -> there are no predifined things to develop web apps  they are very light weight around 1lakh code
+		-> import install and use
+	
+	Framework -> it willl have all the neciessity things needed for developing web app available inside it  only somethings are aquired from backend
+			there will be around 20 lakh codes approximately  
+			->> import and use
+ 
+
+8) how many of you went to stack overflow home page..?
+
+
+9) what is diffing algorithm in React...? 
+
+10) what is Time complexity and Space complexity . in algorithm........?? Note : now days we dont worry about space..
+
+11) what is algorithm .....? 
+
+12 ) why bubble sort is the worst sorting mechanism ... because it compares all elements ...?
+	
+	-> write atleast ,   Merge sort 
+
+
+
+
+IM Q : 9) explain single page and multiple page application what is the difference   if the website gets refreshes then is it 
+
+
+	single page : -> Gmail  bootstrap ( reason : while using the applicaiton it does not gets Refreshed )
+			
+		 	warning : if we press the refresh button it will refreshes .... spa also refreshes
+
+
+	multipage : -> stack over flow , bootstrap ( reason : while using the application it gets refreshes )
+
+		
+		-> We can also develop multi page applications using react js 
+                NOTE 	=> we use Routing to make our application single page ,
+
+	
+	
+			
+		
+
+10) what is CDN  Explain..? 
+
+	ans : Content Delivery Network 
+
+
+11) what is min.css..?
+
+	-> we use minified version to Reduce the Loading Time..
+
+	-> there will be less lines of codes  ( there are many online tools available also in js also ) 
+	->removes all the white spaces from the css files minified version of css file 
+
+
+12)  Why react why not Angular or React ...?
+
+			------------------------------------------------------------
+		React   --> Only React Has  ( virtural Dom ) / React Dom
+			----------------------------------------------------------------
+		           -> very less learning Curve 
+		          -> based on javascript  
+		          -> it has high demand in the market 
+		          -> Third party libraries  ( it is both advantages and disadvantage )
+
+
+		         
+13) can we pass state from one component to another..?
+
+             -->no we but we can pass the data as props like title={this.state.text}
+	
+	-->this is because [ props are immutable ]
+
+	-->we cannot change the state of parent from child 
+
+	-->we have to write a callback func to change the state form child in parent useing [ child->parent ] communication
+
+	-->state can be mutate in the same component only 
+  
+
+	-> state data can be passed to child Only  Props since they are immutable in child component
+	
+	-> it takes a callback funciton in setState
+
+	-> setState is asynchronous
+
+
+	
+14) what are the difference between Props and State 3 must ..? 	
+		
+	
+	-> states are Locally scoped 
+
+	--> setState is Asynchronous  ( is a Web Api ) -> over come we give a second para as callback func 
+
+	-> the second para executes only after setState is updated 
+
+	-> they can only be passed as Props as Other Components as Props are Immutable 
+
+
+
+15) explain render() method.?
+	
+	this is mainly for the view part we should not update the state inside it as it will create infinite 
+
+	since setState will ReRender whenever state Gets updated
+
+
+
+
+16)  Explain Mounting phase ..? 
+
+	the component is completely rendered and is updated in the REAL DOM 
+
+	or Component is Mounted in the Real DOM 	
+
+	-> we shouldnt make api calls here since if render method gets failed then there will be no 
+		use of the data that is fetched 
+
+
+
+17) what are side Effects...?
+
+	sideEffects : it is nothing but making api calls
+
+
+	
+
+15) why when we reassign the state instead of using setState the value is not visible in UI but 
+
+		though the value of state variable is updated...?
+
+	---->>ans : the update phase wont get claled since setState is not called so it wont rerender  the ui so
+
+	value wont be reflected in the UI 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+16) why component did Update not used carefully Results in  Infinite Loop.....? 
+
+
+17) why constructor is used ..?
+
+	-> to bind 
+	-> to initalize state 
+
+	if above functions are not done then Constructor is not required
+
+		
+
+
+
+
+
+
+
+
+
+			

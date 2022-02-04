@@ -1,0 +1,11 @@
+.backgroundimage{
+    height: 100%;
+background-attachment: fixed;
+background-size:cover;
+margin: 0;
+}
+.logo{
+    /* part 2 text in row with space around  */
+    display: flex;
+    justify-content: space-around;
+}

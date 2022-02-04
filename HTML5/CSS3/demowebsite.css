@@ -1,0 +1,79 @@
+/* we can position an element either by using 
+margin or positio property
+
+*/
+
+body {
+  background-image: url(../photo/laptop.jpg);
+  /* since the photo size is small it is coming repeatedly so use no repaet */
+  background-repeat: no-repeat;
+  /* this property creates only one image with original size */
+  /* it wont convet the whole page so use size cover */
+  background-size: cover;
+  /* this property covers the whole page with  */
+  /* image that is provided though it is samll */
+  background-attachment: fixed;
+  /* this property makes the image no scrollable and wont move with content as content increase  */
+  /* try adding more content and make it scroll and u will understand */
+}
+header {
+  box-shadow: 4px 15px 15px rgba(18, 73, 1, 0.808);
+  text-align: center;
+  font-family: cursive;
+  background-color: rgb(243, 55, 34);
+  color: white;
+  width: 250px;
+  border-radius: 0px 20px 0 20px; /* it takes 4 values in clock wise
+ top-left, top-right, bottom-right,bottom-left */
+  margin-top: -100px;
+  margin-left: 500px;
+}
+
+img {
+  height: 100px;
+  width: 70px;
+  border-radius: 40px;
+  margin-left: 400px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  border: 4px solid rgb(0, 236, 20);
+  padding: 2px;
+  margin-left: 6px;
+  background-color: rgb(36, 221, 36);
+}
+
+a:hover {
+  /* sine i have given font size for "a" i have to give 
+     font size in hover also otherwise it will take default font size i,e small size */
+  color: rgb(234, 243, 234);
+  background: linear-gradient(
+    50deg,
+    rgb(230, 65, 65),
+    rgb(62, 224, 62),
+    rgb(109, 109, 136)
+  );
+  border-radius: 50px;
+}
+nav {
+  background-color: rgb(88, 85, 88);
+  border: 3px solid black;
+  padding: 20px;
+  position: sticky; /* By default pos of nav bar is static */
+  top: 5px;
+}
+#idhome {
+  border: 2px solid black;
+}
+.hometitlebox {
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 7px 7px 20px green;
+  width: 200px;
+  margin-left: 42%;
+}
+.homttitle {
+  width: 200px;
+}

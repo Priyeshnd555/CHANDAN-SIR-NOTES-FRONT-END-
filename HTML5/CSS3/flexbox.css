@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid green;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-around;/* to use the justify content we
+    need to add width to indvidual elements  */
+}
+.sec1{
+    border: 3px solid red;
+    width: 100px;
+    /* flex: 2; */
+}
+.sec2{
+    border: 3px solid red;
+    width: 200px;
+    /* flex: 1; */
+}
+.sec3{
+    border: 3px solid red;
+    width: 600px;
+    /* flex: 2; */
+}

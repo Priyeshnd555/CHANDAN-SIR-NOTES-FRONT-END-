@@ -1,0 +1,31 @@
+
+.demo{
+    border:1px solid gray;
+    background: antiquewhite;
+    width:100px;
+}
+.randomStyle{
+    border: solid red;
+    color:brown;
+
+}
+
+.randomStyle1{
+    font-size: medium;
+    font-weight: 200;
+    border: 5px solid green;
+}
+
+.random3{
+    /* not working after adding forOf */
+    background-color: yellow;
+    padding: 2px;
+    text-align: center;
+    width: 60px;
+    /* for looping .demo class and adding some styles open dom.js */
+}
+.random4{
+    border: 1px solid blue;
+    /* for looping .demo class and adding some styles  open dom.js*/
+
+}

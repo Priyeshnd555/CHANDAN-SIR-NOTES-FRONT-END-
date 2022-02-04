@@ -1,0 +1,28 @@
+
+Web Apis / Node Apis Example 
+------------------------------------------------------------------------------------------------------------------------------------
+Q) google +++> weird javascript question ..( Important ) 
+--------------------------------------------------------------------------------------------------------------------------------------
+Q: ) is javascript is Synchrous or Asynchorous Explain ......................
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Java Scripts are  ------------ synchronous whatever the code  call stack excutes line by line
+
+web api are -----------------Asynchronous  ( web api are not part of java-script enigne ) these moves the excution  
+--------------------------------------------------------------------------------------------------------------------------------------
+
+these are realated to Browser when the following are called they are moved to web Apis and are excuted usually 
+after the normal functions are excecuted 
+
+
+
+
+	1) setTimeOut()
+
+	2) setInterval()
+	
+	3) Dom Events
+	
+	4) Promise
+
+	5) Ajax Call

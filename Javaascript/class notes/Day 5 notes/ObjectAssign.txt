@@ -1,0 +1,28 @@
+To create a copy of object / Merge Objects
+
+
+
+Syntax :  
+
+		Object.assign(target,source)
+
+	Example: 	
+		const car = { color:'red'}
+
+		const newCar = Object.assign({},car );
+	
+ 		
+		now all the values in car is copyied into the {} 
+	
+
+		console.log(newCar.color) // ==> prints red
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+warning :   	Object . Assign -> only does Shallow Copy does not copy nested objects they are not copied 
+		
+		Object.assign olny copies the upper layer of the Object 
+
+		not the Objects that are nested inside it 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------

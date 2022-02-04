@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in js</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    
+    <!-- This element is not visible
+    because css display : none , but button click changes that to dispaly: 'block'  -->
+    <h1 class="showHideName">priyesh</h1>
+
+
+
+    <!-- Space is preserved both hides and shows the text in h1 -->
+    <!-- visibility : visible / hidden -->
+    <button onclick="showHideButton()">show/Hide (visibility:visible/hidden)</button>
+
+    <!-- shows the h1 text open events.js to see  it displays the hidden name -->
+    <button  onclick="showName()"> Show Name (display:block)</button>
+
+        <!-- hides the h1 text this button hides the text --> 
+     <button onclick="hideName()">Hide button (display:none)</button>
+
+   
+    <!-- onMousehover  shows text and onMouseout  hides text-->
+    <button onmouseover="showName()" onmouseout="hideName()" >onover show onout hide (dispaly prop)</button>
+
+<br><br><br><br>    
+    <!-- onkeyDown and onKeyUP and value attribute --><label for="num">this shows value keyDown and keyUP in console</label>
+    <input type="text" value="" name="" id="num" onkeydown="price()" onkeyup="showPrice()"  placeholder="enter text here">
+    
+    <div id="priceValue" style="color: green;font-weight: bolder;margin-left: 200px;">
+        
+    </div>
+<br><br>
+    <button id="clickEvent">'click'</button>
+    <input type="text" name="" id="nameValue" placeholder="press enter in text box and see console">
+
+    <br><!-- CheckBox --><br><br>
+    <label for="">chekcbox<input type="checkbox" id="checkBox" ></label>
+
+    <!-- onChange event Assignment -->
+
+    <div>
+        <!-- very very very Important open javascript file and go to line no 94 
+            Looping is mandatory for radio buttons 
+        we have to add addEventListener for individual radio elements  -->
+        <input type="radio" name="gender" id="male" class="gender">male
+        <input type="radio" name="gender" id="female" class="gender">Female
+        <input type="radio" name="gender" id="custom" class="gender">custom
+    </div>
+                                                       
+    <script src="events.js"></script>
+</body>
+</html>

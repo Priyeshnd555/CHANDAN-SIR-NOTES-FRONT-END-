@@ -1,0 +1,64 @@
+body{
+    border: 3px solid black;
+    padding: 20px;
+}
+
+#a1{
+    color: green;
+}
+#a2{
+    color:red;
+}
+#a3{
+    color:purple;
+}
+
+.newclass{
+    color: blueviolet;
+}
+
+h1,h2,h3,h4,p{
+    color:blue;
+}
+
+.psuedo{
+    columns: rgb(128, 0, 0);
+}
+
+.psuedo:hover{
+   color: red;
+   border: 1px solid red; 
+   box-shadow: 8px 9px 12px red;
+}
+
+.psuedo:focus{
+    color: green;
+    border: 1px solid rgb(0, 255, 21); 
+    box-shadow: 8px 9px 12px rgb(0, 255, 0);
+
+}
+
+.psuedo:visited{
+   color: purple;
+   border: 1px solid rgb(255, 0, 191); 
+   box-shadow: 8px 9px 12px rgb(255, 0, 191);
+
+}
+
+.psuedo:active{
+    color: yellow;
+    border: 1px solid rgb(208, 255, 0); 
+    box-shadow: 8px 9px 12px rgb(208, 255, 0);
+
+}
+
+.parent{
+    background-color: red;
+}
+.child1{
+color: white;
+}
+.child2{
+    color: white;
+}
+

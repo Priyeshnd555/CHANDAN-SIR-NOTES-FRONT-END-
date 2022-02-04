@@ -1,0 +1,80 @@
+	for Each method we cannot use Break statement 
+--------------------------------------------------------------------------------------------------------
+
+	for of ( arrays )  ====> it is for ARRAYS 
+
+	[ break ] ==== can only be used with Loops  if it is used with inside method then it wil break the code
+
+	[ return ] === statement is used to come out of  method
+-----------------------------------------------------------------------------------------------------------
+	Syntax : 
+	
+		for ( var item of variable_name )           /// we get the value of index as item instead of just index of elements 
+		{				   ///the loop will run through all elements 
+						  // here item is a variable it can be renamed    
+
+		log ( item )    
+	
+		} 
+
+----------------------------------------------------------------------------------------------------------
+
+	Example : 
+
+		var fruits = [ "apple", "Banana", "Orange",]
+	
+		for ( var fruit of fruits )
+		{
+
+			log ( fruit ) 
+
+		}
+		
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+	FOR IN LOOP 
+
+
+
+	Syntax : 
+
+
+		for ( var key in variable_name ) 
+		{
+
+			log(person[key]
+
+		}
+
+-----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+NOTE :: 
+
+	for in loop for ARRAYS  : NOTE ==> IT IS CAN BE USED TO IGNORE EMPTY ELEMENTS FOR ARRAY 
+
+		ARRAY LENGTH WONT CHANGE 
+
+---------------------------------------------------------------------------------------------------------------------------
+	 IT DOES NOT CONSIDE OR PRINT THE EMPTY VALUES 
+
+--------------------------------------------------------------------------------------------------------------------------
+
+	VAR a = [ 34, , , 34 , 'kj', lksjdf,, ]
+
+	
+		output :   34, 34, kj, lksjdf
+
+
+	the empty elements will not be printed 
+
+	NOTE : 
+		The elements are not  removed from the array ... but they are just ignored 
+		
+		the array length is not reduced ..
+
+		
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+

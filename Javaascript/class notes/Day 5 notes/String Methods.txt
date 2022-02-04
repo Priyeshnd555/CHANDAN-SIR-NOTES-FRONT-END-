@@ -1,0 +1,24 @@
+STRING METHOD 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+trim method ; ->
+			syntax : str_name.trim()
+
+					it does not trim whitespaces between letters word 
+					
+					-> removes whitespaces from left and right
+
+					-> trimleft() trimright()
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+replace( 'h', 'H')
+
+
+NOTES : replaces Only the first occurence of   'h' only 
+
+	-> TO replace all use   +++ >>>     replaceAll('h','H') 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+split ( '  separator ' )    -> 
+
+			example : split (' ' ) -> separator is whitespace

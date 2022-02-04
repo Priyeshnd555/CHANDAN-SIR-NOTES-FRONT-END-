@@ -1,0 +1,12 @@
+
+
+
+	1) For Each is a Method it is not a Loop it takes a function 
+
+
+		note : forEach method does not return anything 
+
+			the return value :   of forEach is  == Undefined 
+		
+
+	Q:) Explain the values taken by ForEachMethod.?

@@ -1,0 +1,24 @@
+
+
+map method : 
+
+
+		it creates and returns  a new array 
+
+		does not modify the original array
+
+		does not change the ouput if the original output gets changed after calling the map 
+
+
+Syntax : 
+
+	
+		array_name.map((val, index ) => { return ; } ;  	// here index is optional 
+
+		example : num.map ( val => val+10;)   ==> CORRECT
+
+NOTE: 
+
+		if logic is of single line Do not use return with Arrow Function 
+
+		example ;  num.map((val,index) =>  val+10 ) ++==> correct way 

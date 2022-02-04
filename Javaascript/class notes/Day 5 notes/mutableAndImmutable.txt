@@ -1,0 +1,39 @@
+
+// primitive types are immutable
+
+let name1 = 'Ajay';
+let nameCopy = name1;
+
+console.log(`name1 -${name1}`); // prints Ajay
+console.log(`nameCopy - ${nameCopy}`);// prints Ajay
+
+
+/* When we change the data of  name1 variable it will not affect the data
+of namceCopy Variable */
+
+name1 ='Girish'
+console.log(`name1 - ${name1}`); //prints Girish 
+console.log(`namecopy - ${nameCopy}`); // prints Ajay
+
+
+// Reference types are mutable
+// Example for mutable
+
+const person = {
+    name : 'Vijay',
+    age : 30,
+}
+
+const personCopy = person;
+console.log(person.name); // prints Vijay
+console.log(personCopy.name);// prints  Vijay
+
+/*  When we change the data of person object variable it will affect the 
+data of personCopy variable because in memory both 
+person and personCopy variables are pointing to same object */
+
+
+person.name='Abhi'
+console.log(`name - ${person.name}`);// prints Abhi;
+console.log(`nameCopy - ${personCopy.name}`);// prints Abhi
+

@@ -1,0 +1,94 @@
+
+	WINDOWS + E === > OPENS THE FILE EXPLORER OF LAPTOP
+
+	CSS ===> Dont Ever Write INLINE CSS
+
+	Google :====>   AVASCIRPT COMPARISION TABLE 
+
+=====================================================
+
+Math Object 
+
+	Math.round(), Math.ceil(), Math.floor(), Math.random() [ 0-1 ] , Math.abs() [ -6 => 6 returns positive value ] , Math.min/max , 
+
+======================================================
+
+	new Date() ;   	=== > in Java Script month Starts From   [  0 - jan , 1- feb , 2- mar , 3-Apr ]
+
+	date constructor -1 ==> new Date( year, month, day, hours, minutes, seconds,);
+
+	date contstructor -2 ==> new Date( " october 12, 2021")  // we can pass a string;
+
+	date constructor -3 ==> new Date ( milliseconds) ; // this starts from       (  january 1, 1970 )
+
+	
+======================================================
+
+		to check whether it is a number or not 
+
+		var a = 29 ;
+		
+		typeof a === " number "   ans  ===> true 
+		typeof(a) === "number " ans ===> true 
+
+
+==================================================
+
+	strict operator === compares both data-type and value 
+
+	ternary operator |||||      var person = age>18 ? 'adult ' : ' minor ' ;
+
+=============================================================
+
+	var isNumber = true;     ||| true is a boolean value so true is not need to be enclosed in quotes 
+
+	example :: 
+		
+	if ( isNumber ) {
+
+	}
+	else {
+
+	}
+==========================================================================
+
+	var data = null ;
+
+	if ( data ) {
+
+		/* this block wont get executed since null is false ;  Else block is executed */
+	
+	} 
+
+=================================================================
+
+	var data = undefined ;
+
+	if ( data ){
+		
+			/* this block wont get executed since null is false ;  Else block is executed */
+	}
+
+========================================================
+
+	var data = " " / false ;
+
+	if ( data ){
+		
+			/* this block wont get executed since null is false ;  Else block is executed */
+
+	}
+
+
+=================================================================
+
+			ARRAY 
+
+
+	1**. First check the Length of array only if it ZERO then only proceed 
+
+		
+
+
+					
+		

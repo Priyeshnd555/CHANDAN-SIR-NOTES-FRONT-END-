@@ -1,0 +1,46 @@
+/*  note : here after calling map function the origanal array also get modified 
+
+because in the array  only the address will be stored in the array
+
+ but when we modify the object  the new copy newArray will also point to the same 
+ old object 
+
+--------------------------------------------------------------------------------
+IMPORTANT  -- Day 5 javascript --> AssignmentArrayObject.js
+----------------------------------------------------------------------------------
+
+ // to make the original array IMMUTABLE 
+
+ when map function is called
+    1. one new array is created it will not create  new Objects 
+    2. so orginal arrray of object gets modified 
+
+    3. to prevent this new Object 
+
+		
+		
+    3. to prevent this new Object 
+
+        items.map(val => {
+            
+            const valCopy = Object.Array({},val);
+             // here in object and array though the variable is of const type 
+             // inside values can be changed
+
+            valCopy.price += 100
+            
+            return valCopy ;
+        })
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+ example: 
+		
+		value of  const array can be changed 
+
+                --->    [const a = [ 3,35,234,];  a[0] = 34;  console.log(a);    ===> correct
+
+
+
+*/
+

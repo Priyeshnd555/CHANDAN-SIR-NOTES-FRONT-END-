@@ -1,0 +1,75 @@
+
+important : whenever Learning a new function or methods 
+
+		: parameters
+		: Return type
+		: Functionality 
+
+
+
+
+	1) Array.isArray(array_name)  --> to check wheather Array or not ..since typeof  returns OBJECT for array ..
+
+	2) Array_name.includes() --> ( selectElement , from Index -not including )
+
+	3) Array_name.push() -->
+	
+	4) Array_name.pop() -->
+	
+	5) Array_name.join(separator) ----> [ return Type => string ] [ separator == , . - _ $ " ' \ / 124,3, ...etc ]
+		                      ----> [ default  : , ]
+			        ------> does not modify the original Array it remains the same 
+
+
+	6) Array_nameindexOf( value, startingIndex(optional)) ----> if the value is not present it returns -1 
+
+		condition :: to check whether the value is present or not 
+
+			 way 1:   if (indexOf>0) { it is presnt } else { it is not present }
+			 way 2 :   if (indexOf !==-1) { it is presnt } else { it is not present }
+
+			  way 3 :    if (indexOf === -1) { it is not present } else { it is present }
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+	5) splice ( starting index , deleting count, item, item )  -- original array gets modified 
+
+				returnType: array ---- Returns deleted Elements 
+
+	note : to delete everything write n.splice(0) ===> this deletes all elemets 
+
+
+		Example : 
+
+				const n = [ 20, 40, 50, 60]
+
+				        n.spice( 2,2,70,100)
+
+				Returns : [ 50,60] 
+			
+			 	 New array => n = [ 20, 40, 70, 100 ] 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+					SLICE - METHOD 
+				      --------------------------------------
+
+
+		6) slice ( start index , End Index --not including )  -- does not modify the original array 
+
+			No Element is removed by using slice Method 
+
+
+		NOTE : TO CREATE A COPY OF AN ARRAY  THIS IS USEFUL 
+
+Q:) How to take a copy  of an array 
+
+			 const n = [ 3,3,5,6];
+
+			n.slice( 1,2);
+
+			before slice  n =[ 3,3,5,6,]
+			after slice    n = [ 3,3,5,6 ] 
+
+			new sliced array  = 3 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------

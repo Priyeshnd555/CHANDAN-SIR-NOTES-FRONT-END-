@@ -1,0 +1,77 @@
+			
+			LET & CONST ( official website of Javascript MDN ) 
+
+	priority : 
+			1) CONST  ==> first priority 
+			 2) Let ==> if reassignment is required  3) var -- never used
+			
+----------------------------------------------------------------------------------------------------------------------------------------
+
+1. There will be hoisting in let and const also but the values are	
+	
+		 Not accesible with let and const ;
+
+	reason for this behavior :  temporal Dead Zone 
+
+
+note : Using let and const we cannot acess the variables before declaration Due to temporal Dead Zone 
+
+
+2. Temporal dead Zone ( important go to Mozilla developers network ) 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+NOTE :  * we cannot use const   in a Loop because  IN Const : => Reassigning is not Allowed 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Q: ) What is the neccessity for let and const why not var 
+
+		Ans:: * we cannot achieve block scope { scope within curly braces } with var 
+		         * and hoisting 
+		         * Redeclaration is allowed with var 
+
+	example: 
+
+		var num = [3,3,32,256,]
+
+		var num ={ 
+				name: 'age', 
+				age = 24,
+			}
+
+		num.push(23,5) ====> this will results in error as num has both array and Object so 
+
+
+	* ==> They have inroduced let and const

@@ -1,0 +1,122 @@
+div{
+    display: flex;
+}
+.anime{
+    /* display: inline-block; */
+    
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    height: 30px;
+    /* border-radius: 30px; */
+    background-color: #f00;
+    margin:0;
+}
+.a{
+    animation: welcome 7s 1s infinite;
+
+}
+.b{
+    animation: welcome 7s 1.01s infinite;
+
+}
+.c{
+    animation: welcome 7s 1.02s infinite;
+
+}
+.d{
+    animation: welcome 7s 1.03s infinite;
+
+}
+.e{
+    animation: welcome 7s 1.04s infinite;
+
+}
+.f{
+    animation: welcome 7s 1.05s infinite;
+
+}
+.g{
+    animation: welcome 7s 1.6s infinite;
+
+}
+@keyframes welcome{
+    0%{
+        position: relative;
+        top: 100px;
+        /* 50px from start of parent div initial 
+        pos of letter before animation */
+        background-color: #f00;
+    }
+    50%{
+        position: relative;
+        top: 0px;
+        background-color: #0f0;
+    }
+    100%{
+        position: relative;
+        top: 50px;
+            /* 50px from start of parent div 
+            should  return to the initial position
+            so 0% and 100% should have same coodination
+         pos of letter before animation */
+         background-color: rgb(255, 0, 13);
+    }
+}
+/* div{
+    position: relative;
+    top:50px;
+    border: 1px solid red;
+    height: 200px;
+} */
+
+
+/* .up{
+    animation: upward 1s  infinite reverse ;
+    border: 1px solid red;
+} */
+@keyframes upward {
+    0%{
+        /* position: absolute; */
+        position: relative;
+        top:50px;
+        /* right: 0px; */
+    }
+    50%{
+        /* position: relative; */
+        top: 0px;
+        /* right: 20px; */
+    }
+  
+    100%{
+        position: relative;
+        top: 50px;
+        /* right: 10px; */
+    }
+}
+
+
+/* .dn{
+    animation: downward 1s  infinite  ;
+}  */
+@keyframes downward {
+    0%{
+        position: relative;
+        top: 50px;
+        right: 0px;
+        /* position: absolute;
+        top: 50px; */
+    }
+    50%{
+        position: relative;
+        top: 00px;
+        right: 0px;
+    }
+    100%{
+        position: relative;
+        top: 50px;
+        right: 0px;
+        /* position:absolute;
+        top: 0px; */
+    }
+} 

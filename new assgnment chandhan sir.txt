@@ -1,0 +1,444 @@
+
+ty-javascript-react
+Javascript
+
+Path - D:\HTD Training\ty-javascript-react\Assignment
+===================================================
+Assignment 1 ( Sept 7th )
+===================================================
+
+1. List 10 Javascript / Ecmascript Engines. 
+2. What is Javascript Engine 
+3. What is diff bw Javascript and Ecmascript 
+4. What is diff bw ECMA and Ecmascript 
+5. Data types in Javascript with example 
+6. Create 5 objects without using new keyword with one function
+7. Create 5 objects using new keyword with one function  
+8. Difference bw null and undefined 
+
+===================================================
+Assignment 2 ( Sept 8th )
+===================================================
+
+https://dorey.github.io/JavaScript-Equality-Table/
+
+1. Difference bw primitive and reference types
+2. Difference bw == and ===
+3. Calculate BMI and print results using ternary operator and if else statements
+4. Go through JS Comparison tables - https://dorey.github.io/JavaScript-Equality-Table/ 
+5. Two examples for each primitive type using typeof operator 
+6. Create 5 arrays without using new keyword with all primitive types and object and loop using for loop
+7. Create 5 arrays using new keyword with all primitive types and object and loop using for loop
+8. Display Day using Date object 
+	Input - new Date('Sept 12 2020')
+	Output - Saturday, September 12 2020
+
+===================================================
+Assignment 3 ( Sept 9th )
+===================================================
+
+1. Five examples using for in loop, for of loop - Array and Objects 
+2. WAP to find prime number or not using four ways of functions 
+3. WAP for bubble sort using four ways of functions 
+4. WAP to reverse string using four ways of functions 
+5. WAP to find second largest number using four ways of functions 
+6. WAP to print integer Value between Two Numbers (Inclusive)
+	Input :
+	Enter a min value: 1
+	Enter a max value: 50
+	Output :
+	Random value between 1 and 50 is 47
+7. WAP to find factorial of number using four ways of functions 
+8. WAP to print fibonacci series using four ways of functions
+9. What is callback function ? Write an example 
+10. What is Hoisting with example 
+
+===================================================
+Assignment 4 ( Sept 13 )
+===================================================
+
+1. What is the use of callback function
+2. Explain the Javascript order of execution OR Workflow of Javascript
+3. List and explain wierd javascript things 
+4. What is temporal dead zone. Explain ?
+5. What is Mutable and Immutable with an example 
+6. What happens in below scenarios 
+	const n = [10, 20 ,30 ]
+	const n1 = n
+	n.slice(0)
+7. Give five examples for array methods	
+	a. forEach
+	b. push 
+	c. pop
+	d. shift 
+	e. unshift
+	f. includes
+	g. splice
+	h. slice 
+	i. isArray
+8. Difference bw var, let and const 
+9. Difference bw splice and slice methods 
+10. Difference bw push and unshift 
+11. Difference bw pop and shift 
+
+===================================================
+Assignment 5 ( Sept 14 )
+===================================================
+1. Explain find(), findIndex(), flat(), sort(), reverse() methods 
+   of Array and five examples for these methods 	
+2. Explain hasOwnProperty(), toString(), Object.keys(), 
+   Object.values(), Object.entries(), Object.create(), Object.assign(), 
+   Object.freeze() methods of Object and five examples for these methods
+3. What is Web Apis in javascript and list 10 web apis
+4. What is deepCopy and shallowCopy
+5. Difference b/w deepCopy and shallowCopy
+6. 
+
+===================================================
+Assignment 6 ( Sept 15 )
+===================================================
+1. Example for setTimeout(), setInterval(), clearTimeout, clearInterval 
+2. Example for Array and string methods 
+3. Example for deepCopy and shallowCopy 
+4. Explain window, location, history, navigator objects 
+5. WAP to find geolocation 
+6. add, remove, update - array operations 
+7. What is DOM ? Explain
+8. What is the use / advantages of DOM ?
+9. What is the diff b/w innerHTML and innerText and textContent
+
+
+===================================================
+Assignment 7 ( Sept 16 )
+===================================================
+
+1. Difference bw display : none and visibility : hidden 
+2. Explain Event and EventListener in javascript 
+3. Explain onchange event with an example
+4. Form validation with input box, select and 
+options, checkbox and radiobutton using javascript
+	Name - Input box (Validation - only characters are allowed)
+	Age - input box  (Validation - Age should be greater than 0 and less than 150 )
+	Subjects Studied - CheckBoxes  (Validation - required)
+	Male or Female - RadioButton		   (Validation - required)
+	Password - Input Box				   (Validation - required , should consist 
+											atleast 1 lowerCase, 1 uppercase,
+                                             1 number and 1 special character)
+	Email - Input Box 						(Validation - valid email id )
+	Agree to terms and condition - CheckBox	(Validation - required)
+    State - Select and options (Validation - required)
+5. Example for Object and Array destructuring 
+6. Example for spread and rest operator for object and array
+7. Difference bw JSON.stringify() and JSON.parse()
+
+===================================================
+Assignment 8 ( Sept 17 )
+===================================================
+
+1. What are promises with an example 
+2. What is callback hell or pyramid of doom
+3. What is recursion with an example
+4. What is fetch api, example for GET method
+5. What are closures explain with example 
+6. Difference bw Promise.all() and Promise.race()
+7. What is this keyword, explain this keyword with example 
+8. Explain call(), apply(), bind() methods in javascript with a program
+9. What is Constructor function 
+10. Declare class in javascript with two propertie and two methods 
+11. Maps and Sets example -> 
+
+====================================================
+
+1. At global level, this === window 
+2. In normal function, this === window 
+3. Functions belongs to object, this === object 
+4. Functions declared inside object which doesnot belong to object 
+    this === window
+5. Arrow functions will have its parent context 
+    (this will be pointing to its parent object)
+
+===================================================
+Assignment 9 ( Sept 20 )
+===================================================
+1. What is localStorage and explain methods of 
+localStorage with an example
+2. What is sessionStorage and explain methods of 
+sessionStorage with an example
+3. Difference bw localStorage and sessionStorage 
+4. Difference bw call, apply, bind 
+
+===================
+REACT JS 		  =
+===================================================
+Assignment 1 ( Sept 21 )
+===================================================
+
+1. What is React JS ? 
+2. Why React ?
+3. What is diff bw library and framework ?
+4. React vs React DOM
+5. How to create react elements ?
+6. What is Virtual DOM ? 
+7. Real DOM vs Virtual DOM ? 
+8. What is Single Page Application ?
+
+
+<script crossorigin 
+    src="https://unpkg.com/react@15.4.2/dist/react.js">
+    </script>
+    <script
+    crossorigin 
+    src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js">
+    </script>
+
+===================================================
+Assignment 2 ( Sept 22 )
+===================================================
+
+1. What is JSX. Explain with an example
+2. WAP to fetch data from 
+https://jsonplaceholder.typicode.com/posts and 
+display title in web page. 
+3. Example for Class component 
+4. Example for Functional Component
+5. What are props ? 
+6. Difference bw Class and Functional Components 
+7. Explain Diffing Algorithm and Complexity of Algorithm
+8. What is Babel 
+9. Explain key attribute ? Why key attribute need to be used 
+
+
+===================================================
+Assignment 3 ( Sept 23 )
+===================================================
+
+1. Difference b/w props and state ?
+2. Example to pass data from parent to child 
+3. What is setState (). Explain 
+4. Explain writing events in Class component and 
+	functional component with an example ?
+
+
+===================================================
+Assignment 4 ( Sept 24 )
+===================================================
+
+1. Example for passing data from child to parent component 
+2. TODO APP 
+3. Explain Lifecycle methods of Class component with an example 
+4. Example for conditional rendering style and classes and component
+5. localStorage Assignment
+6. setState is Asynchronous or not ? What is the proper way to update the state ?
+7. 5 programs to pass data from child to parent
+8. 2 programs to pass data from parent to child 
+
+===================================================
+Assignment 5 ( Sept 27 )
+===================================================
+
+1. Create 5 projects - 
+	npx create-react-app appName
+	
+	create-react-app appName 
+	
+	second-app
+	third-app
+	fourth-app 
+	fifth-app 
+	sixth-app 
+2. What are React Hooks ? 
+3. 3 examples for conditional rendering 
+4. Explain useState hook with an example for array and object 
+5. LocalStorage assignment using React JS 
+6. Explain the project structure of React App 
+
+===================================================
+Assignment 6 ( Sept 28 )
+===================================================
+
+1. Explain Link, Route, BrowserRouter, withRouter 
+2. WAP to navigate programmatically 
+3. Explain import and export 
+4. LocalStorage assignment using React JS ( Sept 30, Thursday Morning 10:30 am)
+5. TODO ( Sept 30, Thursday Morning 10:30 am)
+6.  Routing login and register with validation  ( Sept 31, Friday Morning 10:30 am)
+7. What is Webpack ? 
+
+===================================================
+Assignment 7 ( Sept 30 )
+===================================================
+
+1. What is props drilling ?
+2. What is the solution for props drilling ?
+3. What is context api, explain with an example 
+4. What is redux 
+5. What is ref, example of using ref in class and functional component
+6. What is useEffect() 
+7. Table CRUD operation - refer link (https://technoelevate-ess-lite.netlify.app/) 
+	Educational Tab - ( Oct 4, Monday Morning 10:30 am)
+8. Recipe app - ( Oct 4, Monday Morning 10:30 am)
+ 
+
+===================================================
+Assignment 8 ( Oct 1 )
+===================================================
+
+1. Use fetch api and fetch the data - https://jsonplaceholder.typicode.com/users
+2. Explain useEffect wrt componentDidMount, 
+	componentDidUpdate, componentWillUnMount with an example for string, number, array and object
+3. What is axios, example for GET,POST,PUT,DELETE methods 
+
+===================================================
+Assignment 9 ( Oct 4 )
+===================================================
+
+1. Case Study React - (Deadline - Oct 8 , 10:30 am)
+https://xd.adobe.com/view/6e6b883a-455e-49e4-a6c2-9550d74330df-3b38/
+
+===================================================
+Assignment 10 ( Oct 5 )
+===================================================
+
+1. What is Pure Component ? How to make class and functional components as Pure Component
+2. Which is the dev server used in React project ? (Answer - webpack-dev-server)
+3. How to create axios instance ?
+4. What is Fragment ?
+5. What is ErrorBoundary ? How to handle errors in react js ? 
+6. What are Limitations of ErrorBoundary ? 
+	Answer :
+	
+	Error boundaries do not catch errors for:
+
+	Event handlers (learn more)	
+	Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	Server side rendering
+	Errors thrown in the error boundary itself (rather than its children)
+7. Which errors can be handled in error boundaries ?
+8. What is code splitting and lazy loading ?
+
+
+===================================================
+Assignment 11 ( Oct 6 )
+===================================================
+
+1. What is HOC ? Explain with an example 
+2. What is useMemo ? Explain with an example
+3. What is useCallback ? Explain with an example 
+4. What is useReducer ? Explain with an example 
+5. What is reduce function ? Explain with an example
+
+
+===================================================
+Assignment 12 ( Oct 7 )
+===================================================
+
+1. Example for combination of useReducer and useContext 
+2. What is isNaN() ?
+3. How to create custom hooks ? Create two custom hooks ? ( By googling ) 
+4. What is render prop ?
+5. Difference bw useState and useReducer ? When to use which, explain ?
+
+
+===================================================
+Assignment 13 ( Oct 8 )
+===================================================
+
+1. Explain jwt with an example ?
+2. What is axios interceptors ? explain with an example 
+3. Write a test case using react-testing-library ?
+4. Project with routing concept (params based)? 
+5. Explain Switch component of react-router-dom with an example ?
+6. Explain the flow of redux ? 
+7. How to run react app in different port ? i.e., in specific port number
+
+
+===================================================
+Assignment 14 ( Oct 13 )
+===================================================
+
+1. Install ESLINT and PRETTIER. Explain ESLint and its benefits 
+
+What is ESLint?
+ESLint, is a JavaScript linter that can find and fix common problems in your code. 
+This is a huge time saver, and an absolute necessity for all JavaScript developers. 
+It does all the heavy lifting around coding standards for you, and you don’t have to worry about forgetting them.
+
+Benefits of ESLint
+
+a. Reduce human errors and doesn’t rely on developers to remember the code standards.
+b. All the developers are on the same page with coding standards, and can read each other’s code.
+c. Developers don’t have to spend time on code reviews, pointing out coding standard issues.
+d. Big time saver and improves team’s velocity.
+
+2. Write test cases for react components using react-testing-library 
+   Official website - https://testing-library.com/docs/react-testing-library/intro 
+   Other Reference - https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/ 
+
+https://www.youtube.com/watch?v=7dTTFW7yACQ&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&ab_channel=TheNetNinja
+					
+3. Complete the case study by Monday morning 10am without fail 
+ 
+					
+===============================================================================
+Without JWT
+===============================================================================
+1. https://ty-shop.herokuapp.com/api/products GET
+
+
+2. https://ty-shop.herokuapp.com/api/products POST
+
+req body: 
+{
+    "productName": "BMW ",
+    "productPrice": 50,
+    "productImageURL": "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343__340.jpg",
+    "productDescription": "Speed motorcycle"
+}
+
+3. https://ty-shop.herokuapp.com/api/products/{_id} PUT
+
+req body:
+{
+    "productName": "Benz ",
+    "productPrice": 50,
+    "productImageURL": "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343__340.jpg",
+    "productDescription": "Speed motorcycle"
+}
+
+4. https://ty-shop.herokuapp.com/api/products/{_id} DELETE
+
+===============================================================================
+With JWT 
+===============================================================================
+
+1. https://ty-shop-token.herokuapp.com/api/users/login POST
+
+req body:
+{
+   'email': '',
+   'password': ''
+}
+
+2. https://ty-shop-token.herokuapp.com/api/users/register POST
+
+fullName : Chandan
+email:tyss@gmail.com
+password:tyss1234
+role:admin
+
+
+{
+    "fullName" : "Chandan",
+"email":"jwt@gmail.com",
+"password":"jwt@123",
+"role":"admin"
+}
+
+
+
+
+
+
+
+
+	
